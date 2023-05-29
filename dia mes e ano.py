@@ -1,0 +1,6 @@
+nome = input("Digite o nome: ")
+dia = input("Digite o dia: ")
+mes = input("Digite o mês: ")
+ano = input("Digite o ano: ")
+mensagem = "Olá {}! Você nasceu em {} de {} de {}.".format(nome, dia, mes, ano)
+print(mensagem)
